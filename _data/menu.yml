@@ -1,0 +1,87 @@
+main:
+  - name: Home
+    url: /
+    weight: 1
+  - name: Projects
+    url: /projects/
+    weight: 2
+    child:
+      - name: "Reminisce Railway Documentary"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/railway-documentary
+      - name: "State of the Art Event"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/oxygen
+      - name: "Public Land Use"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/ocr
+      - name: "Social Support Program"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/barwonhealth
+      - name: "GluteGuard TVC Ad"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/gluteguard
+      - name: "ZoosVic Education"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/zoosvic
+      - name: "Winter 2023 Campaign"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/stagetwo
+      - name: "Time after Time"
+        icon: "/assets/images/icons/wireframe-7.svg"
+        icon_darkmode: "/assets/images/icons/wireframe-7-white.svg"
+        description: "Video"
+        url: /projects/timeaftertime        
+  - name: About
+    url: /about/
+    weight: 3
+  - name: Contact
+    url: /contact/
+    weight: 4
+  
+
+footer_primary:
+
+footer_secondary:
+  - name: About
+    url: /about/
+    weight: 3
+  - name: Contact
+    url: /contact/
+    weight: 4
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 1
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 2
+
+footer_tertiary:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 1
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 2
+
+bottom:
+  - name: Privacy Policy
+    url: /privacy-policy/
+    weight: 3
+  - name: Terms and Conditions
+    url: /terms-and-conditions/
+    weight: 4
